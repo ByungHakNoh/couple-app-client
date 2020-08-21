@@ -1,0 +1,74 @@
+.profile-section {
+    max-width: 1000px;
+    min-width: 500px;
+    margin-top: 30px;
+}
+
+.profile-photo-box {
+    max-width: 700px;
+    min-width: 500px;
+    display: flex;
+    margin: auto;
+}
+
+.profile-photo-box__photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+}
+
+.profile-photo-box__text {
+    position: relative;
+    top: 40%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.text--name {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-photo-box__button {
+    min-width: 100px;
+    position: relative;
+    top: 20%;
+    left: 130%;
+    transform: translate(0%, -30%);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    font: icon;
+    background-color: rgb(172, 209, 233);
+    color: white;
+}
+
+.profile-photo-box__button:hover {
+    background-color: rgb(109, 146, 155);
+}
+
+.profile-photo-box__button:active {
+    background-color: rgb(109, 146, 155);
+}
+
+.my-info {
+    max-width: 700px;
+    min-width: 500px;
+    margin: 60px;
+}
+
+.my-info__title {
+    margin-bottom: 30px;
+}
+
+.my-info__notice {
+    margin: 20px;
+}
+
+.my-info__text {
+    margin-left: 50px;
+}

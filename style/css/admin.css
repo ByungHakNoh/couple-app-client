@@ -1,0 +1,76 @@
+.admin-button-box {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 40px;
+}
+
+.admin-button-box__button {
+    min-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    font: icon;
+    background-color: rgb(172, 209, 233);
+    color: white;
+}
+
+.admin-button-box__button:hover {
+    background-color: rgb(109, 146, 155);
+}
+
+.admin-button-box__button:active {
+    background-color: rgb(109, 146, 155);
+}
+
+.button--visitor {
+    margin-right: 10px;
+}
+
+.button--member {
+    margin-left: 10px;
+}
+
+.admin-chart-box {
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+.admin-section {
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+/* 차트 관련 */
+
+.chart-box {
+    padding: 10px;
+}
+
+.chart-box__chart {
+    display: inline;
+}
+
+/* 월별 방문자 차트 */
+
+.chart-box__axis-label {
+    font-size: 10em;
+}
+
+.chart-box__line-path {
+    fill: maroon;
+    stroke-width: 3;
+    stroke-linejoin: round;
+    opacity: 0.7;
+}
+
+/* 브라우저 차트 관련 */
+
+.chat-box__label {
+    font-size: 20px;
+    font-style: bold;
+}

@@ -1,0 +1,66 @@
+.signin {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.signin__form {
+  display: inline-block;
+  width: 500px;
+  padding: 40px;
+  text-align: center;
+}
+
+.signin__title {
+  font-weight: 700;
+}
+
+.signin__faied-alert {
+  width: 100px;
+  margin: 0 auto;
+  text-align: left;
+  color: red;
+}
+
+.signin__input {
+  border: 0;
+  background: var(--input-background-color);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 10px;
+  width: 300px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-size: large;
+  font-weight: 500;
+}
+
+.signin__input:focus {
+  width: 350px;
+}
+
+.signin__submit {
+  border: 0;
+  background-color: var(--main-background-color);
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  padding: 14px 60px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 700;
+}
+
+.signin__submit:hover {
+  transform: translateY(5px);
+}

@@ -1,0 +1,179 @@
+.home-section {
+    min-width: 100px;
+    max-width: 600px;
+    margin: 0 50px 50px 250px;
+    height: 80%;
+}
+
+.home-story {
+    width: 600px;
+    height: 700px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px gray;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* TODO 타이틀 좌측에 사진 추가하기 */
+
+.home-story__title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.home-story__title {
+    width: 90vw;
+    font-size: 1.0rem;
+    padding: 5px;
+}
+
+.btn--more {
+    cursor: pointer;
+}
+
+.home-story__photo-box {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.home-story__photo {
+    width: 600px;
+    height: 500px;
+}
+
+.home-story__current-status {
+    bottom: 40px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.295);
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.home-story__description-box {
+    margin: 20px;
+}
+
+.home-story__date {
+    font-size: 0.9rem;
+}
+
+.home-story__description {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.box--button {
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-story__button {
+    color: rgba(128, 128, 128, 0.753);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.home-profile {
+    width: 16vw;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.home-profile__aside-box {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1.2px solid #bdbdbd;
+}
+
+.home-profile__label-box {
+    min-width: 300px;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-box--profile {
+    border-bottom: 1.2px solid #bdbdbd;
+}
+
+.label-box--add-story {
+    margin-top: 20px;
+    border-top: 1.2px solid #bdbdbd;
+}
+
+.home-profile__label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #757575;
+}
+
+.home-profile__btn {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.home-profile__photo-box {
+    max-width: 300px;
+    min-width: 250px;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.home-profile__icon-box {
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-profile__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+}
+
+.home-profile__icon {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.home-profile__box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.home-profile__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal__home {
+    text-align: center;
+}
+
+.modal__btn {
+    padding: 10px;
+    border-bottom: thin solid #e0e0e0;
+    cursor: pointer;
+    font-weight: 700;
+}

@@ -1,0 +1,132 @@
+.add-story-title {
+    max-width: 600px;
+    min-width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 30px 0 50px 0;
+}
+
+.add-story-title__label {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.add-story {
+    padding: 10px;
+}
+
+.add-story__box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.box--btn {
+    display: flex;
+    align-items: center;
+    margin: 80px 0 100px 0;
+}
+
+.add-story__label {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-story__label-box {
+    display: flex;
+}
+
+.add-story__file {
+    display: none;
+}
+
+.add-story__photo-box {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.add-story__btn-image {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* .btn--image-delete {
+    display: none;
+}
+
+.btn--image-delete.active {
+    display: flex;
+} */
+
+.add-story__item-box {
+    max-width: 250px;
+}
+
+.add-story__photo {
+    width: 250px;
+    max-height: 250px;
+}
+
+.add-story__selection {
+    position: relative;
+    left: 40%;
+    bottom: 100px;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: rgb(0, 255, 85);
+}
+
+.add-story__selection.active {
+    display: inline;
+}
+
+.add-story__edit {
+    border: 0;
+    background: var(--input-background-color);
+    padding: 14px 10px;
+    color: black;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: large;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.edit--story-title {
+    max-width: 250px;
+}
+
+.edit--story-description {
+    max-width: 450px;
+}
+
+.add-story__date {
+    max-width: 200px;
+    padding: 14px 10px;
+    background: var(--input-background-color);
+    border-radius: 24px;
+    font-size: large;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.add-story__btn {
+    min-width: 100px;
+    max-width: 200px;
+    left: 50%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    font: icon;
+    background-color: rgb(172, 209, 233);
+    color: white;
+}
